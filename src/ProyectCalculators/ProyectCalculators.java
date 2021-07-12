@@ -8,7 +8,7 @@ public class ProyectCalculators {
         var Flag = true;
         while (Flag == true) {
             String calcuArea = JOptionPane.showInputDialog("""
-                                                           MENU - Calculador de operaciones
+                                                           MENU - Operation Calculator
                                                            -----------------------------------------------
                                                            1. Calculate Area - Rectangle
                                                            2. Calculate Med of sums
@@ -122,7 +122,7 @@ public class ProyectCalculators {
                Float valorB = Float.parseFloat(JOptionPane.showInputDialog("Insert the value of \"b\" "));
                Float valorC = Float.parseFloat(JOptionPane.showInputDialog("Insert the value of \"c\" "));
                
-               JOptionPane.showMessageDialog(null, "The volume of the ellipsoid with the given values ​​is: " + ((4/3)*varPi*valorA*valorB*valorC));
+               JOptionPane.showMessageDialog(null, "The volume of the ellipsoid with the given values ​​is: " + ((4/3f)*varPi*valorA*valorB*valorC));
             }
             
             else if ("11".equals(calcuArea)){
